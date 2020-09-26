@@ -49,11 +49,39 @@ export default class Navbar extends React.Component {
                           <div className="card-body p-0">
                             <ul className="navi navi-bold navi-hover my-5" role="tablist">
                               <li className="navi-item">
-                                <a className="navi-link active" data-toggle="tab" href="#kt_profile_tab_personal_information">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information">
+                                  <span className="navi-icon" style={{ fontSize: "1.08rem" }}>
+                                    🏡
+                                  </span>
+                                  <span className="navi-text" style={{ fontSize: "1.08rem" }}>Accommodation</span>
+                                </a>
+                              </li>
+                              <li className="navi-item">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information" style={{ paddingBottom: "0" }}>
+                                  <span className="navi-text" style={{ fontSize: "1.08rem" }}>School Fees</span>
+                                </a>
+                              </li>
+                              <li className="navi-item">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information">
+                                  <span className="navi-text" style={{ fontSize: "1.08rem" }}>Education Schemes, Subsidies & Grants</span>
+                                </a>
+                              </li>
+                              <li className="navi-item">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information">
                                   <span className="navi-icon" style={{ fontSize: "1.08rem" }}>
                                     🎓
                                   </span>
                                   <span className="navi-text" style={{ fontSize: "1.08rem" }}>Education</span>
+                                </a>
+                              </li>
+                              <li className="navi-item">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information" style={{ paddingBottom: "0" }}>
+                                  <span className="navi-text" style={{ fontSize: "1.08rem" }}>School Fees</span>
+                                </a>
+                              </li>
+                              <li className="navi-item">
+                                <a className="navi-link" data-toggle="tab" href="#kt_profile_tab_personal_information">
+                                  <span className="navi-text" style={{ fontSize: "1.08rem" }}>Education Schemes, Subsidies & Grants</span>
                                 </a>
                               </li>
                             </ul>
@@ -81,92 +109,92 @@ export default class Navbar extends React.Component {
                                 <tbody>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Primary School</span>
-                                      <span className="text-dark-50">7 - 12 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Primary School</span>
+                                      <span className="text-dark-100">7 - 12 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">440 - 700 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">440 - 700 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">180 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">180 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">Free</span>
+                                      <span className="text-dark-100 d-block font-size-lg">Free</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Secondary School</span>
-                                      <span className="text-dark-50">13 - 16 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Secondary School</span>
+                                      <span className="text-dark-100">13 - 16 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">720 - 1,250 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">720 - 1,250 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">320 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">320 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">5 SGD</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Junior College</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Junior College</span>
+                                      <span className="text-dark-100">17 - 20 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">980 - 1,600 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">980 - 1,600 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">400 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">400 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">6 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">6 SGD</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Institute of Technical Education</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Institute of Technical Education</span>
+                                      <span className="text-dark-100">17 - 20 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">13,470 - 20,480 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">13,470 - 20,480 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5,023 - 7,833 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">5,023 - 7,833 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">406 - 626 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">406 - 626 SGD</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Polytechnic</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Polytechnic</span>
+                                      <span className="text-dark-100">17 - 20 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">10,000 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">10,000 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5,600 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">5,600 SGD</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">2,800 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">2,800 SGD</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">University</span>
-                                      <span className="text-dark-50">21 - 24 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">University</span>
+                                      <span className="text-dark-100">21 - 24 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
+                                      <span className="text-dark-100 d-block font-size-lg">POA</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
+                                      <span className="text-dark-100 d-block font-size-lg">POA</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
+                                      <span className="text-dark-100 d-block font-size-lg">POA</span>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -180,13 +208,17 @@ export default class Navbar extends React.Component {
                             <div className="table-responsive">
 
                               <div className="alert alert-dark" role="alert" style={{ marginTop: "1rem" }}>
-                                <h4 style={{ marginBottom: "0rem" }}>Schemes, Subsidies & Grants</h4>
+                                <h4 style={{ marginBottom: "0rem" }}>Education Schemes, Subsidies & Grants</h4>
                               </div>
 
                               <table className="table table-borderless table-vertical-center">
                                 <thead>
                                   <tr>
-                                    <th className=""></th>
+                                    <th className="" style={{ padding: "0" }}>
+                                      <div className="alert alert-dark" role="alert" style={{ background: "#2c3e50" }}>
+                                        <h6 style={{ marginBottom: "0rem" }}>Edusave Contributions</h6>
+                                      </div>
+                                    </th>
                                     <th className="text-center" style={{ fontSize: "1.08rem" }}>Foreigner</th>
                                     <th className="text-center" style={{ fontSize: "1.08rem" }}>Permanent Resident</th>
                                     <th className="text-center" style={{ fontSize: "1.08rem" }}>Citizen</th>
@@ -195,92 +227,32 @@ export default class Navbar extends React.Component {
                                 <tbody>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Primary School</span>
-                                      <span className="text-dark-50">7 - 12 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Primary School</span>
+                                      <span className="text-dark-100">7 - 12 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">440 - 700 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">N.A.</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">180 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">N.A.</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">Free</span>
+                                      <span className="text-dark-100 d-block font-size-lg">230 SGD</span>
                                     </td>
                                   </tr>
                                   <tr>
                                     <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Secondary School</span>
-                                      <span className="text-dark-50">13 - 16 years old</span>
+                                      <span className="text-dark-100 font-weight-bolder d-block font-size-lg">Secondary School</span>
+                                      <span className="text-dark-100">13 - 16 years old</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">720 - 1,250 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">N.A.</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">320 SGD</span>
+                                      <span className="text-dark-100 d-block font-size-lg">N.A.</span>
                                     </td>
                                     <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5 SGD</span>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Junior College</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">980 - 1,600 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">400 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">6 SGD</span>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Institute of Technical Education</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">13,470 - 20,480 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5,023 - 7,833 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">406 - 626 SGD</span>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">Polytechnic</span>
-                                      <span className="text-dark-50">17 - 20 years old</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">10,000 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">5,600 SGD</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">2,800 SGD</span>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td className="py-5">
-                                      <span className="text-dark-75 font-weight-bolder d-block font-size-lg">University</span>
-                                      <span className="text-dark-50">21 - 24 years old</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
-                                    </td>
-                                    <td className="text-center">
-                                      <span className="text-dark-50 d-block font-size-lg">POA</span>
+                                      <span className="text-dark-100 d-block font-size-lg">290 SGD</span>
                                     </td>
                                   </tr>
                                 </tbody>
