@@ -13,7 +13,7 @@ export default function Home() {
               <h1 className="h2">Living in Singapore</h1>
             </div>
 
-            <h3>🏡 Accommodation</h3>
+            <h3 id="accommodation">🏡 Accommodation</h3>
             <div className="table-responsive">
               <table className="table table-striped table-sm">
                 <thead>
@@ -73,7 +73,7 @@ export default function Home() {
               </table>
             </div>
             <br />
-            <h3>🎓Education</h3>
+            <h3 id="education">🎓 Education</h3>
             <div className="table-responsive">
               <table className="table table-striped table-sm">
                 <thead>
@@ -174,8 +174,8 @@ export default function Home() {
                     <td><i class="fas fa-angle-right"></i> Primary Level</td>
                     <td rowspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
                     <td rowspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
-                    <td style={{ color: "#218c74" }} rowspan="3">
-                      <ul style={{ paddingInlineStart: "20px", marginBottom: 0 }}>
+                    <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }} rowspan="3">
+                      <ul style={{ paddingInlineStart: "20px", marginBottom: 0}}>
                         <li>A full subsidy for school fees.</li>
                         <li>A full subsidy of $6.50 per month for standard miscellaneous fees.</li>
                         <li>Free textbooks and school attire.</li>
@@ -189,6 +189,76 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td><i class="fas fa-angle-right"></i> Pre-University level (Junior Colleges, Centralised Institute)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="table-responsive">
+              <table className="table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th style={{ color: "#218c74" }}>Subsidies - Higher Education Community Bursary</th>
+                    <th>Foreigner</th>
+                    <th>Permanent Resident</th>
+                    <th>Citizen</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4"><strong>Government Schools</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> ITE</td>
+                    <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
+                    <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
+                    <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 1,250 - 100% tuition fee subsidy + S$ 1,500 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Polytechnics</td>
+                    <td style={{ color: "#218c74" }}>S$ 2,400 - 2,750 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Universities (excluding Medicine/Dentistry students)</td>
+                    <td style={{ color: "#218c74" }}>S$ 5,000 - 6,200 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Universities (Medicine/Dentistry students)</td>
+                    <td style={{ color: "#218c74" }}>S$ 14,900 - 24,700 per year</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="table-responsive">
+              <table className="table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th style={{ color: "#218c74" }}>Subsidies - Higher Education Bursary</th>
+                    <th>Foreigner</th>
+                    <th>Permanent Resident</th>
+                    <th>Citizen</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4"><strong>Government Schools</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> ITE</td>
+                    <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
+                    <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
+                    <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 400 - 600 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Polytechnics</td>
+                    <td style={{ color: "#218c74" }}>S$ 850 - 1,900 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Universities (excluding Medicine/Dentistry students)</td>
+                    <td style={{ color: "#218c74" }}>S$ 1,350 - 3,200 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Universities (Medicine/Dentistry students)</td>
+                    <td style={{ color: "#218c74" }}>S$ 4,900 - 16,700 per year</td>
                   </tr>
                 </tbody>
               </table>
