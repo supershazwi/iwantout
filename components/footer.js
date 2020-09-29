@@ -1,13 +1,11 @@
 export default function Footer({ children }) {
 	return (
 		<div>
-	    	<script src="/js/plugins.bundle.js"></script> 
-			<script src="/js/prismjs.bundle.js"></script> 
-			<script src="/js/scripts.bundle.js"></script> 
-			<script src="/js/fullcalendar.bundle.js"></script>
-			<script src="/js/widgets.js"></script> 
-			<script src="/js/popper.js"></script> 
-			<script src="/js/bootstrap.js"></script> 
+	    	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="/js/bootstrap.bundle.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+			<script src="/js/dashboard.js"></script>
 	    </div>
 	)
 }
