@@ -15,6 +15,21 @@ export default function Sidebar({ children }) {
                       <span style={{ marginRight: "0.5rem" }}>🎓</span> Education
                     </a>
     	          </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#food_beverages">
+                      <span style={{ marginRight: "0.5rem" }}>🍜</span> Food & Beverages
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#taxes">
+                      <span style={{ marginRight: "0.5rem" }}>🧾</span> Taxes
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#transportation">
+                      <span style={{ marginRight: "0.5rem" }}>🚗</span> Transportation
+                    </a>
+                  </li>
     	          <li className="nav-item">
     	            <a className="nav-link" href="#">
     	              Products

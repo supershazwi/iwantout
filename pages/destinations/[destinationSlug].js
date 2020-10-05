@@ -18,10 +18,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th>Property Prices</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ width: "40%" }}>Property Prices</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -78,10 +78,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th>School Fees</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ width: "40%" }}>School Fees</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -134,10 +134,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th style={{ color: "#218c74" }}>Schemes - Edusave</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ color: "#218c74", width: "40%" }}>Schemes - Edusave</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -160,10 +160,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th style={{ color: "#218c74" }}>Subsidies - MOE Financial Assistance Scheme (FAS)</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ color: "#218c74", width: "40%" }}>Subsidies - MOE Financial Assistance Scheme (FAS)</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -176,11 +176,11 @@ export default function Home() {
                     <td rowspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
                     <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }} rowspan="3">
                       <ul style={{ paddingInlineStart: "20px", marginBottom: 0}}>
-                        <li>A full subsidy for school fees.</li>
-                        <li>A full subsidy of $6.50 per month for standard miscellaneous fees.</li>
-                        <li>Free textbooks and school attire.</li>
-                        <li>S$ 15 transport credit per month if your child takes public transport.</li>
-                        <li>A S$ 2 per meal subsidy for school meals, applicable to 7 meals per school week.</li>
+                        <li>A full subsidy for school fees</li>
+                        <li>A full subsidy of $6.50 per month for standard miscellaneous fees</li>
+                        <li>Free textbooks and school attire</li>
+                        <li>S$ 15 transport credit per month if your child takes public transport</li>
+                        <li>A S$ 2 per meal subsidy for school meals, applicable to 7 meals per school week</li>
                       </ul>
                     </td>
                   </tr>
@@ -197,10 +197,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th style={{ color: "#218c74" }}>Subsidies - Higher Education Community Bursary</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ color: "#218c74", width: "40%" }}>Subsidies - Higher Education Community Bursary</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -211,7 +211,7 @@ export default function Home() {
                     <td><i class="fas fa-angle-right"></i> ITE</td>
                     <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
                     <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
-                    <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 1,250 - 100% tuition fee subsidy + S$ 1,500 per year</td>
+                    <td style={{ color: "#218c74", verticalAlign: "middle" }}>S$ 1,250 - 100% tuition fee subsidy + S$ 1,500 per year</td>
                   </tr>
                   <tr>
                     <td><i class="fas fa-angle-right"></i> Polytechnics</td>
@@ -232,10 +232,10 @@ export default function Home() {
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th style={{ color: "#218c74" }}>Subsidies - Higher Education Bursary</th>
-                    <th>Foreigner</th>
-                    <th>Permanent Resident</th>
-                    <th>Citizen</th>
+                    <th style={{ color: "#218c74", width: "40%" }}>Subsidies - Higher Education Bursary</th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -246,7 +246,7 @@ export default function Home() {
                     <td><i class="fas fa-angle-right"></i> ITE</td>
                     <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
                     <td rowspan="4" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Not Eligible</td>
-                    <td style={{ color: "#218c74", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 400 - 600 per year</td>
+                    <td style={{ color: "#218c74", verticalAlign: "middle" }}>S$ 400 - 600 per year</td>
                   </tr>
                   <tr>
                     <td><i class="fas fa-angle-right"></i> Polytechnics</td>
@@ -259,6 +259,154 @@ export default function Home() {
                   <tr>
                     <td><i class="fas fa-angle-right"></i> Universities (Medicine/Dentistry students)</td>
                     <td style={{ color: "#218c74" }}>S$ 4,900 - 16,700 per year</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br />
+            <h3 id="food_beverages">🍜 Food & Beverages</h3>
+            <div className="table-responsive">
+              <table className="table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th style={{ width: "40%"}}></th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4"><strong>Hawker Food</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Chicken Rice</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 4.00</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Nasi Lemak</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 4.50</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Economy Rice</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 3.50</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><strong>Restaurant/Cafe Food</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Cheeseburger</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 14</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Steak with Mashed Potatoes</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 26</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Grilled Norwegian Salmon</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 24</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br />
+            <h3 id="taxes">🧾 Taxes</h3>
+            <div className="table-responsive">
+              <table className="table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th style={{ width: "40%"}}></th>
+                    <th style={{ width: "30%" }}>Non-resident</th>
+                    <th style={{ width: "30%" }}>Resident</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Personal Income Tax Type</td>
+                    <td>Flat or progressive, whichever higher</td>
+                    <td>Progressive</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Personal Income Tax Rate</td>
+                    <td>15 - 22% per year of assessment</td>
+                    <td>0 - 20% per year of assessment</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Capital Gains & Dividends</td>
+                    <td colspan="2" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>0%</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Corporate Tax Type</td>
+                    <td colspan="2" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Flat</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Corporate Tax Rate</td>
+                    <td colspan="2" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>17%</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Corporate Tax Rate for startups in first 3 years</td>
+                    <td colspan="2" style={{ verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>
+                      <ul style={{ paddingInlineStart: "20px", marginBottom: 0}}>
+                        <li>0% on first S$ 100,000</li>
+                        <li>8.5% on next S$ 200,000</li>
+                        <li>17% on amounts above S$300,000</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Corporate Tax Rebate</td>
+                    <td>Not Eligible</td>
+                    <td style={{ color: "#218c74" }}>30%, capped at S$ 20,000 per year</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Double Taxation Treaty</td>
+                    <td colspan="2" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>Yes</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br />
+            <h3 id="transportation">🚗 Transportation</h3>
+            <div className="table-responsive">
+              <table className="table table-striped table-sm">
+                <thead>
+                  <tr>
+                    <th style={{ width: "40%"}}></th>
+                    <th style={{ width: "20%" }}>Foreigner</th>
+                    <th style={{ width: "20%" }}>Permanent Resident</th>
+                    <th style={{ width: "20%" }}>Citizen</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4"><strong>Public Transportation</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Bus</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 0.92 - 2.80 per trip</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Train</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 0.42 SGD - 1.67 per trip</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Bus + Train Concession Card</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 128 for unlimited trips</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Taxi/Ride-hailing</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 8 - 32 per trip</td>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><strong>Private Transportation</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Car Rental</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 74 (Hatchback) - 95 (SUV) per day</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-angle-right"></i> Car Purchase</td>
+                    <td colspan="3" style={{ textAlign: "center", verticalAlign: "middle", background: "rgba(52, 172, 224, 0.1)" }}>S$ 78,999 (Hatchback) - 151,999 (SUV)</td>
                   </tr>
                 </tbody>
               </table>
